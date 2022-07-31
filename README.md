@@ -1,2 +1,1 @@
-# tsee.github.io
-Personal protfolio website
+# tsee.mn
