@@ -16,19 +16,19 @@ export default {
 	data: () => {
 		return {
 			singleProjectHeader: {
-				singleProjectTitle: 'Project Management UI',
+				singleProjectTitle: 'Pasdfasdfads',
 				singleProjectDate: 'Jul 26, 2021',
-				singleProjectTag: 'UI / Frontend',
+				singleProjectTag: 'Mobile Application',
 			},
 			projectImages: [
 				{
 					id: 1,
-					title: 'Kabul Project Management UI',
+					title: 'asdgasdg',
 					img: require('@/assets/images/ui-project-1.jpg'),
 				},
 				{
 					id: 2,
-					title: 'Kabul Project Management UI',
+					title: 'asdgasdg',
 					img: require('@/assets/images/web-project-2.jpg'),
 				},
 				{
@@ -38,46 +38,45 @@ export default {
 				},
 			],
 			projectInfo: {
-				clientHeading: 'About Client',
+				clientHeading: 'Харилцагчийн тухай',
 				companyInfos: [
 					{
 						id: 1,
-						title: 'Name',
-						details: 'Company Ltd',
+						title: 'Нэр',
+						details: 'SendMN',
 					},
 					{
 						id: 2,
-						title: 'Services',
+						title: 'Үйлчилгээ',
 						details: 'UI Design & Frontend Development',
 					},
 					{
 						id: 3,
-						title: 'Website',
-						details: 'https://company.com',
+						title: 'Вебсайт',
+						details: 'https://www.send.mn',
 					},
 					{
 						id: 4,
-						title: 'Phone',
-						details: '555 8888 888',
+						title: 'Утас',
+						details: '+976',
 					},
 				],
-				objectivesHeading: 'Objective',
+				objectivesHeading: 'Oasdgasdg',
 				objectivesDetails:
 					'Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, natus! Quibusdam enim quod in esse, mollitia molestias incidunt quas ipsa accusamus veniam.',
 				technologies: [
 					{
-						title: 'Tools & Technologies',
+						title: 'asdgasd',
 						techs: [
-							'HTML',
-							'CSS',
-							'JavaScript',
-							'Vue.js',
-							'TailwindCSS',
-							'AdobeXD',
+							'Flutter',
+							'Gitlab',
+							'Ci/CD',
+							'C#',
+							'.NET'
 						],
 					},
 				],
-				projectDetailsHeading: 'Challenge',
+				projectDetailsHeading: 'Casd',
 				projectDetails: [
 					{
 						id: 1,
