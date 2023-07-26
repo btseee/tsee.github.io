@@ -16,9 +16,27 @@ const projects = [
 	},
 	{
 		id: 3,
+		title: 'Mongolian Properties',
+		category: 'Вебсайт',
+		img: require('@/assets/images/project/mongolian_properties.png'),
+	},
+	{
+		id: 4,
 		title: 'Хуримын Ордон',
 		category: 'Вебсайт',
 		img: require('@/assets/images/project/wedding.png'),
+	},
+	{
+		id: 5,
+		title: 'Caak.mn V2.0',
+		category: 'Вебсайт',
+		img: require('@/assets/images/project/caak.png'),
+	},
+	{
+		id: 6,
+		title: 'Etender',
+		category: 'Дотоод систем',
+		img: require('@/assets/images/project/etender.png'),
 	},
 ];
 

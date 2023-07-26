@@ -15,16 +15,13 @@ export default {
 					id: 1,
 					name: 'Kelkheim, Frankfurt, Germany',
 					icon: 'map-pin',
+					action: 'https://www.google.com/maps/d/viewer?mid=1w46KK4d-F5x767hCPljCGNsU2W8&hl=en&ll=50.129257053363574%2C8.453594999999972&z=15',
 				},
 				{
 					id: 2,
 					name: 'bbattseren88@gmail.com',
 					icon: 'mail',
-				},
-				{
-					id: 3,
-					name: '+976 91912840',
-					icon: 'phone',
+					action: 'mailto:'
 				},
 			],
 		};

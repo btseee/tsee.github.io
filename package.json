@@ -1,6 +1,11 @@
 {
-  "name": "vuejs-tailwindcss-portfolio",
-  "version": "0.1.0",
+  "name": "btseee.github.io",
+  "version": "1.0.0",
+  "author": {
+    "name": "Battseren Badral",
+    "email": "bbattseren88@gmail.com",
+    "url": "https://github.com/btseee"
+  },
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
@@ -12,7 +17,9 @@
     "@vue/cli-plugin-babel": "^5.0.8",
     "@vue/cli-plugin-eslint": "^5.0.8",
     "@vue/cli-plugin-router": "^5.0.8",
+    "axios": "^1.4.0",
     "core-js": "^3.27.2",
+    "emailjs-com": "^3.2.0",
     "feather-icons": "^4.29.0",
     "postcss-flexbugs-fixes": "^5.0.2",
     "postcss-import": "^15.1.0",

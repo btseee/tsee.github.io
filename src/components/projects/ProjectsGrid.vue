@@ -7,11 +7,13 @@ import projects from '../../data/projects';
 export default {
 	components: { ProjectSingle, ProjectsFilter },
 	data: () => {
+		const currentYear = (new Date().getFullYear() - 2020).toString();
 		return {
 			projects,
 			projectsHeading: 'Миний төслүүд',
 			selectedCategory: '',
 			searchProject: '',
+			year: currentYear,
 		};
 	},
 	computed: {
@@ -72,7 +74,7 @@ export default {
 					mb-4
 				"
 			>
-				Төрөл болон нэрээр нь хайна уу
+				Миний <b>{{ year }}</b> жилийн турш хамтран ажилласан төслүүд болно
 			</h3>
 			<div
 				class="
