@@ -3,11 +3,12 @@ import App from "./App.vue";
 import router from "./router";
 import "./assets/css/app.css";
 import BackToTop from "vue-backtotop";
+import Vue3Autocounter from "vue3-autocounter";
 
 const feather = require("feather-icons");
 feather.replace();
 
-createApp(App).use(router).use(BackToTop).mount("#app");
+createApp(App).use(router).use(BackToTop).component('vue3-autocounter', Vue3Autocounter).mount("#app");
 
 const appTheme = localStorage.getItem("theme");
 

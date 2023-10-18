@@ -1,6 +1,11 @@
 <script>
 export default {
-  props: ["contacts"],
+  props: {
+    contacts: {
+      type: Array,
+      required: true,
+    },
+  },
 };
 </script>
 
@@ -21,11 +26,9 @@ export default {
           <a
             :href="contact.action + contact.name"
             class="text-lg mb-4 text-ternary-dark dark:text-ternary-light"
-            :class="
-              contact.icon === 'mail' || contact.icon === 'phone'
-                ? 'hover:underline cursor-pointer'
-                : ''
-            "
+            :class="{
+              'hover:underline cursor-pointer': contact.icon === 'mail' || contact.icon === 'phone'
+            }"
             aria-label="Website and Phone"
           >
             {{ contact.name }}

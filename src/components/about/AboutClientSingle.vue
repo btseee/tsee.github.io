@@ -1,9 +1,3 @@
-<script>
-export default {
-  props: ["client"],
-};
-</script>
-
 <template>
   <div>
     <img
@@ -13,5 +7,11 @@ export default {
     />
   </div>
 </template>
+
+<script>
+export default {
+  props: ["client"],
+};
+</script>
 
 <style lang="scss" scoped></style>

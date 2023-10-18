@@ -1,0 +1,17 @@
+{
+    "vetur.validation.template": false,
+    "vetur.validation.style": false,
+    "editor.tabSize": 2,
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true,
+        "source.fixAll": true
+    },
+    "eslint.validate": [
+        "javascript",
+        "javascriptreact",
+        "vue"
+    ],
+    "vetur.useWorkspaceDependencies": true,
+    "vetur.experimental.templateInterpolationService": false,
+}
