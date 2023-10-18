@@ -1,8 +1,8 @@
 <script>
-import feather from 'feather-icons';
-import AppHeader from './components/shared/AppHeader';
-import AppFooter from './components/shared/AppFooter';
-import { VuePreloader } from 'vue-preloader';
+import feather from "feather-icons";
+import AppHeader from "./components/shared/AppHeader";
+import AppFooter from "./components/shared/AppFooter";
+import { VuePreloader } from "vue-preloader";
 
 export default {
   components: {
@@ -12,7 +12,7 @@ export default {
   },
   data: () => {
     return {
-      appTheme: localStorage.getItem('theme'),
+      appTheme: localStorage.getItem("theme"),
       isLoading: true, // Add a flag to track the loading state
     };
   },
@@ -69,7 +69,7 @@ export default {
 </template>
 
 <style>
-@import '../node_modules/vue-preloader/dist/style.css';
+@import "../node_modules/vue-preloader/dist/style.css";
 
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;

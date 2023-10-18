@@ -1,16 +1,17 @@
+<!-- eslint-disable vue/multi-word-component-names -->
 <script>
 export default {
-	props: ['title'],
-	data: () => {
-		return {
-			//
-		};
-	},
+  props: ["title"],
+  data: () => {
+    return {
+      //
+    };
+  },
 };
 </script>
 
 <template>
-	<button>{{ title }}</button>
+  <button>{{ title }}</button>
 </template>
 
 <style lang="scss" scoped></style>

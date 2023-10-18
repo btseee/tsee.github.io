@@ -5,7 +5,6 @@
 [![GitHub stars](https://img.shields.io/github/stars/btseee/btseee.github.io.svg)](https://github.com/btseee/btseee.github.io/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/btseee/btseee.github.io.svg)](https://github.com/btseee/btseee.github.io/network)
 
-
 ![Screenshot](./src/assets/images/profile.png)
 
 Welcome to my personal portfolio website! This project showcases my skills, projects, and experience.
@@ -36,3 +35,4 @@ Here is the live demo of my portfolio website: [https://btseee.github.io](https:
 
    ```bash
    git clone https://github.com/btseee/btseee.github.io.git
+   ```

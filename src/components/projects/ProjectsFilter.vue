@@ -1,21 +1,21 @@
 <script>
 export default {
-	props: {
-		select: {
-			type: String,
-			default: 'projects',
-			required: true,
-		},
-		selectOptions: {
-			type: Array,
-			default: () => [
-				'Web Application',
-				'Mobile Application',
-				'UI/UX Design',
-				'Branding & Anim',
-			],
-		},
-	},
+  props: {
+    select: {
+      type: String,
+      default: "projects",
+      required: true,
+    },
+    selectOptions: {
+      type: Array,
+      default: () => [
+        "Web Application",
+        "Mobile Application",
+        "UI/UX Design",
+        "Branding & Anim",
+      ],
+    },
+  },
 };
 </script>
 
